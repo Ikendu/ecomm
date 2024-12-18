@@ -57,7 +57,7 @@ export default function Header() {
               <div className="header-upper-links">
                 {links.map((link, idx) => (
                   <div key={idx}>
-                    <Link>
+                    <Link className="maplinks">
                       <img src={link.icon} className="right-links" />
                       <p>
                         {link.name} <br /> {link.name1}

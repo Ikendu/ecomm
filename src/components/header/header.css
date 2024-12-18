@@ -31,14 +31,15 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.header-upper-links p {
+  margin: 0;
+}
+.header-upper-links .maplinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 .cartIcon {
   display: flex;
   align-items: center;
-}
-.cartIcon .counter {
-  /* display: flex;
-  flex-direction: column; */
-}
-.cart {
-  padding-bottom: 20px;
 }
