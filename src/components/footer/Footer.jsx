@@ -13,7 +13,9 @@ export default function Footer() {
               </div>
             </div>
             <div className='col-7'>
-              <p>Sign up for Newsletter</p>
+              <p>
+                Sign up for Newsletter <i className='fa-solid fa-envelope'></i>
+              </p>
               <div className='input-group'>
                 <input
                   type='text'

@@ -1,12 +1,12 @@
 import './header.css'
 import { Link } from 'react-router-dom'
 import { BsSearch } from 'react-icons/bs'
-import Assets from '../../assets/icons/Assets'
 
 import compIcon from '../../assets/icons/swap.png'
 import favorIcon from '../../assets/icons/love.svg'
 import userIcon from '../../assets/icons/users.svg'
 import cartIcon from '../../assets/icons/cart.svg'
+import logo from '../../assets/icons/logo.png'
 
 const links = [
   { id: 1, name: 'Compare', name1: 'Products', icon: compIcon },
@@ -34,13 +34,11 @@ export default function Header() {
       <section className='header-upper py-3'>
         <div className='container-xxl'>
           <div className='row align-items-center'>
-            <div className='col-2'>
-              <h2>
-                <Link className='text-white'>More-Links</Link>
-              </h2>
+            <div className='col-2 headLogo'>
+              <img src={logo} alt='' className='logoImage' />
             </div>
             <div className='col-5'>
-              <div className='input-group mb-3'>
+              <div className='input-group mb-3 '>
                 <input
                   type='text'
                   className='form-control py-2'

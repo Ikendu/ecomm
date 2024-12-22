@@ -10,6 +10,11 @@
 .header-top-strip p {
   margin-bottom: 0;
 }
+
+.logoImage {
+  border-radius: 10px;
+  width: 50px;
+}
 a {
   text-decoration: none;
   color: var(--white);
