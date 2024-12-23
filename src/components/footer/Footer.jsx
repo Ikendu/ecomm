@@ -41,7 +41,7 @@ export default function Footer() {
       </section>
       <section className='py-4'>
         <div className='container-xxl'>
-          <div className='row'>
+          <div className='row footerContent'>
             <div className='col-3 footerSect'>
               <h4 className='text-white mb-3'>Contact Us</h4>
               <div className='footer-link d-flex flex-column footerList'>

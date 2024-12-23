@@ -14,3 +14,14 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+.button {
+  font-size: 14px;
+  padding: 13px 30px;
+  background-color: #1c1b1b;
+  color: white;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: yellowgreen;
+  color: #0f0f0f;
+}

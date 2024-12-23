@@ -1,0 +1,33 @@
+.main-banner-content {
+  top: 15%;
+  left: 5%;
+  line-height: 15px;
+}
+.main-banner-content h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #b33b04;
+}
+.main-banner-content h5 {
+  line-height: 70px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #333332;
+}
+
+.small-banner-content {
+  top: 15%;
+  left: 5%;
+  line-height: 15px;
+}
+.small-banner-content h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #b33b04;
+}
+.small-banner-content h5 {
+  line-height: 70px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #333332;
+}
