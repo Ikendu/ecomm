@@ -34,7 +34,7 @@ export default function Header() {
       <section className='header-upper py-3'>
         <div className='container-xxl'>
           <div className='row align-items-center'>
-            <div className='col-2 headLogo'>
+            <div className='col-2'>
               <img src={logo} alt='' className='logoImage' />
             </div>
             <div className='col-5'>

@@ -2,6 +2,35 @@ footer {
   background-color: #022b1d;
   color: azure;
 }
-/* .footersect {
-  padding: 10px;
-} */
+.footerLogo {
+  border-radius: 20px;
+}
+
+.newlettericon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footerList {
+  margin: 0;
+}
+.footerSect {
+  /* max-width: 200px; */
+}
+.footerContent {
+  justify-content: space-around;
+}
+.footerList a {
+  color: white;
+  padding: 4px 0;
+  list-style: none;
+}
+.socialIcons {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
+
+.footerLast {
+  border-top: 1px solid #080f0b;
+}
