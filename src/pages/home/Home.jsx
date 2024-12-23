@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom'
-import ladyImage from '../../assets/img/smiles1.webp'
+import banner from '../../assets/img/smiles1.webp'
+import headphone from '../../assets/img/headphone.jpg'
+import laptop from '../../assets/img/laptop.jpg'
+import phone from '../../assets/img/phone.jpg'
+import home from '../../assets/img/home.jpg'
+
 import './home.css'
 
 export default function Home() {
@@ -10,7 +15,7 @@ export default function Home() {
           <div className='row'>
             <div className='col-6'>
               <div className='main-banner position-relative p-3'>
-                <img src={ladyImage} alt='Lady smiling with set' className='img-fluid rounded-3' />
+                <img src={banner} alt='Lady smiling with set' className='img-fluid rounded-3' />
 
                 <div className='main-banner-content position-absolute'>
                   <h4>Super Charged for Pros</h4>
@@ -24,20 +29,56 @@ export default function Home() {
             </div>
             <div className='col-6'>
               <div className='d-flex align-items-center flex-wrap justify-content-center'>
-                <div className='smail-banner position-relative p-3'>
+                <div className='small-banner position-relative p-3'>
                   <img
-                    src={ladyImage}
+                    src={laptop}
                     alt='Lady smiling with set'
-                    className='img-fluid rounded-3'
+                    className='img-fluid rounded-3 banner-items'
                   />
 
-                  <div className='smail-banner-content position-absolute'>
+                  <div className='small-banner-content position-absolute'>
                     <h4>Super Charged for Pros</h4>
                     <h5>iPad S13+ Pro</h5>
                     <p>From $200</p>
-                    <Link to={'#'} className='button'>
-                      Buy Now
-                    </Link>
+                  </div>
+                </div>
+                <div className='small-banner position-relative p-3'>
+                  <img
+                    src={phone}
+                    alt='Lady smiling with set'
+                    className='img-fluid rounded-3 banner-items'
+                  />
+
+                  <div className='small-banner-content position-absolute'>
+                    <h4>Super Charged for Pros</h4>
+                    <h5>iPad S13+ Pro</h5>
+                    <p>From $200</p>
+                  </div>
+                </div>
+                <div className='small-banner position-relative p-3'>
+                  <img
+                    src={headphone}
+                    alt='Lady smiling with set'
+                    className='img-fluid rounded-3 banner-items'
+                  />
+
+                  <div className='small-banner-content position-absolute'>
+                    <h4>Super Charged for Pros</h4>
+                    <h5>iPad S13+ Pro</h5>
+                    <p>From $200</p>
+                  </div>
+                </div>
+                <div className='small-banner position-relative p-3'>
+                  <img
+                    src={home}
+                    alt='Lady smiling with set'
+                    className='img-fluid rounded-3 banner-items'
+                  />
+
+                  <div className='small-banner-content position-absolute'>
+                    <h4>Super Charged for Pros</h4>
+                    <h5>iPad S13+ Pro</h5>
+                    <p>From $200</p>
                   </div>
                 </div>
               </div>
