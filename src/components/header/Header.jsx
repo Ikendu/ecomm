@@ -76,6 +76,23 @@ export default function Header() {
           </div>
         </div>
       </section>
+      <section className='header-bottom py-3'>
+        <div className='row'>
+          <div className='col-12'>
+            <div className='menu-bottom d-flex align-items-center'>
+              <div></div>
+              <div className='menu-links'>
+                <div className='d-flex align-items-center gap-15'>
+                  <Link to={'/'}>Home</Link>
+                  <Link to={'/'}>Our Store</Link>
+                  <Link to={'/'}>Blogs</Link>
+                  <Link to={'/contact'}>Contact</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

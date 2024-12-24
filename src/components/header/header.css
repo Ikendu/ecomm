@@ -49,6 +49,15 @@ a {
   align-items: center;
 }
 
+.menu-links a {
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3;
+  text-emphasis: none;
+}
+
 @media (max-width: 700px) {
   .header-upper-links {
     display: none !important;
