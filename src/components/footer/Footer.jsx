@@ -80,21 +80,19 @@ export default function Footer() {
             <div className='col-3 footerSect'>
               <h4 className='text-white mb-3'>Pages</h4>
               <div className='footer-link d-flex flex-column footerList'>
-                <Link>Privacy Policy</Link>
-                <Link>Shipping Policy</Link>
-                <Link>Refund Policy</Link>
-                <Link>Terms & conditions</Link>
-                <Link>Blogs</Link>
+                <Link>About Us</Link>
+                <Link>FAQ</Link>
+                <Link>Contact Us</Link>
               </div>
             </div>
             <div className='col-3 footerSect'>
-              <h4 className='text-white mb-3'>Information</h4>
+              <h4 className='text-white mb-3'>Quick Links</h4>
               <div className='footer-link d-flex flex-column footerList'>
-                <Link>Privacy Policy</Link>
-                <Link>Shipping Policy</Link>
-                <Link>Refund Policy</Link>
-                <Link>Terms & conditions</Link>
-                <Link>Blogs</Link>
+                <Link>Laptops</Link>
+                <Link>Phones</Link>
+                <Link>Tablet</Link>
+                <Link>Destop System</Link>
+                <Link>Watch</Link>
               </div>
             </div>
           </div>
