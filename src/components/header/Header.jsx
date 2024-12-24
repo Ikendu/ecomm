@@ -80,14 +80,40 @@ export default function Header() {
         <div className='row'>
           <div className='col-12'>
             <div className='menu-bottom d-flex align-items-center'>
-              <div></div>
-              <div className='menu-links'>
-                <div className='d-flex align-items-center gap-15'>
-                  <Link to={'/'}>Home</Link>
-                  <Link to={'/'}>Our Store</Link>
-                  <Link to={'/'}>Blogs</Link>
-                  <Link to={'/contact'}>Contact</Link>
+              <div>
+                <div className='dropdown'>
+                  <button
+                    className='btn btn-secondary dropdown-toggle'
+                    type='button'
+                    data-bs-toggle='dropdown'
+                    aria-expanded='false'
+                  >
+                    Dropdown button
+                  </button>
+                  <ul className='dropdown-menu'>
+                    <li>
+                      <a className='dropdown-item' href='#'>
+                        Action
+                      </a>
+                    </li>
+                    <li>
+                      <a className='dropdown-item' href='#'>
+                        Another action
+                      </a>
+                    </li>
+                    <li>
+                      <a className='dropdown-item' href='#'>
+                        Something else here
+                      </a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
+              <div className='menu-links'>
+                <Link to={'/'}>Home</Link>
+                <Link to={'/'}>Our Store</Link>
+                <Link to={'/'}>Blogs</Link>
+                <Link to={'/contact'}>Contact</Link>
               </div>
             </div>
           </div>
