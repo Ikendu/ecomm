@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom'
+import { LiaGiftSolid, LiaShippingFastSolid, LiaMoneyCheckAltSolid } from 'react-icons/lia'
+import { RiCustomerService2Fill, RiMoneyPoundBoxLine } from 'react-icons/ri'
+
 import banner from '../../assets/img/smiles1.webp'
 import headphone from '../../assets/img/headphone.jpg'
 import laptop from '../../assets/img/laptop.jpg'
@@ -79,6 +82,63 @@ export default function Home() {
                     <h4>Super Charged for Pros</h4>
                     <h5>iPad S13+ Pro</h5>
                     <p>From $200</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='home-wrapper-2 py-3'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='services d-flex justify-content-between align-items-center'>
+                <div className='service'>
+                  <div className='service-icon'>
+                    <LiaGiftSolid />
+                  </div>
+
+                  <div>
+                    <h6></h6>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='service'>
+                  <div className='service-icon'>
+                    <LiaShippingFastSolid />
+                  </div>
+
+                  <div>
+                    <h6></h6>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='service'>
+                  <div className='service-icon'>
+                    <LiaMoneyCheckAltSolid />
+                  </div>
+                  <div>
+                    <h6></h6>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='service'>
+                  <div className='service-icon'>
+                    <RiCustomerService2Fill />
+                  </div>
+                  <div>
+                    <h6></h6>
+                    <p></p>
+                  </div>
+                </div>
+                <div className='service'>
+                  <div className='service-icon'>
+                    <RiMoneyPoundBoxLine />
+                  </div>
+                  <div>
+                    <h6></h6>
+                    <p></p>
                   </div>
                 </div>
               </div>

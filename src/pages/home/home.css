@@ -16,21 +16,29 @@
 }
 
 .small-banner-content {
-  top: 15%;
-  left: 5%;
+  top: 25%;
+  left: 15%;
   line-height: 15px;
 }
 .small-banner-content h4 {
-  font-size: 13px;
+  font-size: 10px;
   text-transform: uppercase;
+  text-shadow: 2px 2px white;
   color: #b33b04;
 }
 .small-banner-content h5 {
-  line-height: 30px;
-  font-size: 20px;
+  line-height: 20px;
+  font-size: 18px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 1px white;
   color: #333332;
 }
 .banner-items {
   max-width: 250px;
+}
+.home-wrapper-2 {
+  background-color: #dbdbd3;
+}
+.service-icon {
+  font-size: 30px;
 }
