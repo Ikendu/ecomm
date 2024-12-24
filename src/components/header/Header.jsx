@@ -78,43 +78,45 @@ export default function Header() {
         </div>
       </section>
       <section className='header-bottom py-3'>
-        <div className='row'>
-          <div className='col-12'>
-            <div className='menu-bottom d-flex align-items-center'>
-              <div>
-                <div className='dropdown'>
-                  <button
-                    className='btn btn-transparent border-0 dropdown-toggle d-flex gap-1 align-items-center'
-                    type='button'
-                    data-bs-toggle='dropdown'
-                    aria-expanded='false'
-                  >
-                    <CgMenuGridO /> <span>Shop Categories</span>
-                  </button>
-                  <ul className='dropdown-menu'>
-                    <li>
-                      <a className='dropdown-item' href='#'>
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='#'>
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <a className='dropdown-item' href='#'>
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='menu-bottom d-flex align-items-center'>
+                <div>
+                  <div className='dropdown'>
+                    <button
+                      className='btn btn-transparent border-0 dropdown-toggle d-flex gap-1 align-items-center'
+                      type='button'
+                      data-bs-toggle='dropdown'
+                      aria-expanded='false'
+                    >
+                      <CgMenuGridO /> <span>Shop Categories</span>
+                    </button>
+                    <ul className='dropdown-menu'>
+                      <li>
+                        <Link className='dropdown-item' to={'#'}>
+                          Action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className='dropdown-item' to={'#'}>
+                          Another action
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className='dropdown-item' to={'#'}>
+                          Something else here
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div className='menu-links'>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/'}>Our Store</Link>
-                <Link to={'/'}>Blogs</Link>
-                <Link to={'/contact'}>Contact</Link>
+                <div className='menu-links'>
+                  <Link to={'/'}>Home</Link>
+                  <Link to={'/'}>Our Store</Link>
+                  <Link to={'/'}>Blogs</Link>
+                  <Link to={'/contact'}>Contact</Link>
+                </div>
               </div>
             </div>
           </div>

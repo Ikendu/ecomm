@@ -56,6 +56,20 @@ a {
   gap: 15px;
   margin-left: 30px;
 }
+.dropdown-menu,
+.dropdown a {
+  background-color: #2f3338;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px;
+  border-top: 1px solid black;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+  color: #d6d608;
+}
 .menu-links a,
 .menu-bottom .dropdown button {
   color: white;
