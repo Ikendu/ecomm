@@ -1,6 +1,7 @@
 import './header.css'
 import { Link } from 'react-router-dom'
 import { BsSearch } from 'react-icons/bs'
+import { CgMenuGridO } from 'react-icons/cg'
 
 import compIcon from '../../assets/icons/swap.png'
 import favorIcon from '../../assets/icons/love.svg'
@@ -83,12 +84,12 @@ export default function Header() {
               <div>
                 <div className='dropdown'>
                   <button
-                    className='btn btn-secondary dropdown-toggle'
+                    className='btn btn-transparent border-0 dropdown-toggle d-flex gap-1 align-items-center'
                     type='button'
                     data-bs-toggle='dropdown'
                     aria-expanded='false'
                   >
-                    Dropdown button
+                    <CgMenuGridO /> <span>Shop Categories</span>
                   </button>
                   <ul className='dropdown-menu'>
                     <li>

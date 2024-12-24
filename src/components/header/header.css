@@ -56,13 +56,15 @@ a {
   gap: 15px;
   margin-left: 30px;
 }
-.menu-links a {
+.menu-links a,
+.menu-bottom .dropdown button {
   color: white;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   letter-spacing: 0.3;
   text-emphasis: none;
+  text-transform: uppercase;
 }
 
 @media (max-width: 700px) {
