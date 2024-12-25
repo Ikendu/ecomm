@@ -96,22 +96,20 @@ export default function Home() {
               <div className='services d-flex justify-content-between align-items-center'>
                 <div className='service'>
                   <div className='service-icon'>
-                    <LiaGiftSolid />
+                    <LiaShippingFastSolid />
                   </div>
-
                   <div>
-                    <h6></h6>
-                    <p></p>
+                    <h6>Free Shipping</h6>
+                    <p>From all orders above 5$</p>
                   </div>
                 </div>
                 <div className='service'>
                   <div className='service-icon'>
-                    <LiaShippingFastSolid />
+                    <LiaGiftSolid />
                   </div>
-
                   <div>
-                    <h6></h6>
-                    <p></p>
+                    <h6>Daily Surprice Offers</h6>
+                    <p>Save up to 25% off</p>
                   </div>
                 </div>
                 <div className='service'>
@@ -119,8 +117,8 @@ export default function Home() {
                     <LiaMoneyCheckAltSolid />
                   </div>
                   <div>
-                    <h6></h6>
-                    <p></p>
+                    <h6>Affordable Prices</h6>
+                    <p>Get Factory Default Price</p>
                   </div>
                 </div>
                 <div className='service'>
@@ -128,8 +126,8 @@ export default function Home() {
                     <RiCustomerService2Fill />
                   </div>
                   <div>
-                    <h6></h6>
-                    <p></p>
+                    <h6>24/7 Support</h6>
+                    <p>Shop with an expert</p>
                   </div>
                 </div>
                 <div className='service'>
@@ -137,8 +135,8 @@ export default function Home() {
                     <RiMoneyPoundBoxLine />
                   </div>
                   <div>
-                    <h6></h6>
-                    <p></p>
+                    <h6>Secure Payment</h6>
+                    <p>100% protected payment</p>
                   </div>
                 </div>
               </div>
